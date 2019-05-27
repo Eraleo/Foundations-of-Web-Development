@@ -8,5 +8,22 @@ h1{
     background-color: aliceblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    border-width: 2px;
+    padding: 50px 25%;
 }
+
+.Name1 {
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5%;
+    max-width: 30%;
+}
+
+.Name2 {
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10%;
+    max-width: 50%;
+}
+
+
+
