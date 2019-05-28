@@ -14,16 +14,25 @@ h1{
 .Name1 {
     background-color: azure;
     font-family: 'Courier New', Courier, monospace;
-    padding: 5%;
     max-width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 60px 60px;
 }
 
 .Name2 {
     background-color: beige;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10%;
-    max-width: 50%;
+    max-width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px 10px;
 }
 
+.Naam {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400%;
+    text-align: center;
+}
 
 
