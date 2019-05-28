@@ -1,0 +1,90 @@
+body{
+    background-color: #eaeaea;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    background-color:#eaeaea;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+main {
+    overflow: auto;
+
+}
+
+header {
+    background-color: #eaeaea;
+    border-bottom: 2px solid #666;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    padding-bottom: 30px;
+    font-family: georgia, serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.logo strong {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 2px solid gray;
+}
+
+main section {
+    background-color: black;
+    height: 400px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main .large{
+    background-image: url(https://files.slack.com/files-pri/TJ29H5KPB-FJQEYAZ0A/one.jpeg);
+}
+
+main .small {
+    float: left;
+    height: 300px;
+    width: 50%;
+    width: calc(50% - 15px);
+}
+
+main .left {
+    background-image: url(https://files.slack.com/files-pri/TJ29H5KPB-FK4304H8E/three.jpeg);
+    background-color: blue;
+}
+
+main .right{
+    background-image: url(https://files.slack.com/files-pri/TJ29H5KPB-FK3NC53F1/two.jpeg);
+    float: right;
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        padding: 0 100px;
+    }
+}
