@@ -1,10 +1,104 @@
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body {
-    background-color: black
+    background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
-.rec {
-    height: 50px;
-    width: 50px;
-    background-color: azure;
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
 }
 
+.loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loading p{
+    color:white;
+    text-align: center;
+}
+
+@keyframes loader {
+    from {
+        opacity: .1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+
+
+.rec {    
+    width: 10px;
+    height: 150px;
+    background-color: white;
+    margin-right: 20px;
+    display: inline-block;
+    opacity: 0;
+    
+}
+
+.rec.one {
+    animation: loader 10s alternate infinite;
+    animation-delay: 0;
+}
+
+.rec.two {
+    animation: loader 10s alternate infinite;
+    animation-delay: 1s;
+}
+
+.rec.three {
+    animation: loader 10s alternate infinite;
+    animation-delay: 3s;
+}
+
+.rec.four {
+    animation: loader 10s alternate infinite;
+    animation-delay: 4s;
+}
+
+.rec.five {
+    animation: loader 10s alternate infinite;
+    animation-delay: 5s;
+}
+
+.rec.six {
+    animation: loader 10s alternate infinite;
+    animation-delay: 6s;
+}
+
+.rec.seven {
+    animation: loader 10s alternate infinite;
+    animation-delay: 7s;
+}
+
+.rec.eight {
+    animation: loader 10s alternate infinite;
+    animation-delay: 8s;
+}
+
+.rec.nine {
+    animation: loader 10s alternate infinite;
+    animation-delay: 9s;
+}
+
+.rec.ten {
+    animation: loader 10s alternate infinite;
+    animation-delay: 10s;
+}
