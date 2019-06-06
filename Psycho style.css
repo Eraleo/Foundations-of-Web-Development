@@ -122,6 +122,7 @@ main {
 }
 
 .botrec {
+    padding: 50px;
     height: 50%;
     width: 100%;
     background-color: black;
@@ -132,10 +133,30 @@ main {
     font-size: 30px;
 }
 
-.no{
-    color: white;
-
-}
-.yes{
+.yes {
+    margin-top: 10px;
+    width: 200px;
+    height:40px;
+    background-color: white;
+    margin-top: 10px; 
+    font-weight: bold;
+    margin-left: 80%;
     
+}
+
+.yes p {
+    margin-left: 10px;
+}
+
+.no {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    color:white;
+    margin-top: 10px;
+    margin-left: 80%;
+}
+
+.no p {
+    margin-left: 10px;
 }
