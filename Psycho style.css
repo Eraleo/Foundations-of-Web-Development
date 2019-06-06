@@ -7,7 +7,7 @@ html {
   }
 
 body {
-    background-color: black;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -105,4 +105,17 @@ main {
     animation-delay: 5s;
 }
 
+.line1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.line2  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 30px;
+}
 
