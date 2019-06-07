@@ -7,7 +7,11 @@ $(document).ready(function(){
         
     }, 1000);
 
-    
+    $(".next").click(function(event){
+        event.preventDefault();
+        $('.page1').hide();
+        $('.page2').show();
+    });
     
     //$(".loadingPageBtn").click(function(event){
         //event.preventDefault();
